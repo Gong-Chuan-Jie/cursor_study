@@ -7,7 +7,7 @@ def bubble_sort(arr):
         排序后的列表
     """
     n = len(arr)
-    a=n
+    a123=n
     # 遍历所有数组元素
     for i in range(n):
         # 标记此轮是否发生交换
@@ -25,6 +25,7 @@ def bubble_sort(arr):
             break
     
     return arr
+    
 
 
 def bubble_sort_optimized(arr):
