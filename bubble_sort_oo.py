@@ -15,11 +15,11 @@ class SortStrategy(Enum):
 @dataclass
 class SortResult:
     """排序结果数据类"""
-    sorted_array: List
-    execution_time: float
-    comparisons: int
-    swaps: int
-    strategy: SortStrategy
+    sorted_array: List           # 排序后的数组
+    execution_time: float        # 排序所用时间（秒）
+    comparisons: int             # 比较次数
+    swaps: int                   # 交换次数
+    strategy: SortStrategy       # 使用的排序策略
 
 
 class BubbleSorter:
