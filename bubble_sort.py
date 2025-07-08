@@ -97,11 +97,8 @@ if __name__ == "__main__":
     standard_time = time.time() - start_time
     
     # 测试优化版冒泡排序
-    # 记录优化版冒泡排序开始时间
     start_time = time.time()
-    # 执行优化版冒泡排序
     bubble_sort_optimized(large_array.copy())
-    # 计算优化版冒泡排序耗时
     optimized_time = time.time() - start_time
     
     print(f"标准冒泡排序耗时: {standard_time:.4f} 秒")
